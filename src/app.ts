@@ -5,8 +5,6 @@ const addressInput = document.getElementById("address")! as HTMLInputElement;
 
 const GOOGLE_API_KEY = "AIzaSyDMCT_xt8QS9ExtyIyArMnfWXUg7-D0ocU";
 
-declare var google: any;
-
 type GoogleGeoCodingResponse = {
   results: { geometry: { location: { lat: number; lng: number } } }[];
   status: "OK" | "ZERO_RESULTS";

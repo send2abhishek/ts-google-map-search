@@ -14,6 +14,7 @@
   "author": "Abhishek",
   "license": "ISC",
   "devDependencies": {
+    "@types/google.maps": "^3.49.0",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
